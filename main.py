@@ -98,5 +98,8 @@ def laboradas_azul():
 laboradas2 = laboradas_azul()
 print(laboradas2)
 
+
+print("hola")
+
 """if horainicio != 0:
     if horainicio2 ==0 and horainicio2 == 1:"""
