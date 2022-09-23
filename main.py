@@ -2,6 +2,8 @@ import datetime
 
 """----------------------------------------- Declaracion de variables -----------------------------------------------"""
 jornada_ordinaria_horas = 8
+inicio_jornada_diurna_legal = 6.0
+final_jornada_diurna_legal = 21.0
 
 """-----------------------------------Recolectores De Floats Horas --------------------------------------------------"""
 
@@ -79,9 +81,9 @@ s, hora_s_s = hora_salida_jornada()
 
 """-----------------------------------Funcion Ingreso A Descanso --------------------------------------------------"""
 
-
+#Laboradas :
 def laboradas_azul():
-    if hora_i_d_d != "N/A" and hora_s_d_d != "N/A":
+    if hora_i_d_d != "N/A" and hora_s_d_d != " N/A":
         if hora_i_d_d > hora_i_i:
             laboradas = hora_i_d_d - hora_i_i
             return laboradas
@@ -95,11 +97,14 @@ def laboradas_azul():
     else:
         laboradas = None
         return laboradas
-laboradas2 = laboradas_azul()
-print(laboradas2)
+laboradas_ingreso_descaso = laboradas_azul()
+print(laboradas_ingreso_descaso)
 
-
-print("hola")
-
-"""if horainicio != 0:
-    if horainicio2 ==0 and horainicio2 == 1:"""
+def diurnas_azul():
+    if hora_i_d_d!= "N/A" and hora_s_d_d!= " N/A":
+        if d > i:
+            if i >= inicio_jornada_diurna_legal and d <= final_jornada_diurna_legal:
+                diurnas = d-i
+                return diurnas
+            else:
+                if
