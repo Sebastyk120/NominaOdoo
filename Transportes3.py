@@ -45,12 +45,10 @@ for i in rango_Columna:
         celular_proveedor = rango_condicion[contador][15].value
         conductor = rango_condicion[contador][16].value
         celular_conductor = rango_condicion[contador][17].value
-        telefono = "+573208831801"
-        pywhatkit.sendwhatmsg(telefono, ide + '\n' + proveedor, 22, 2, 8, True, 4)
+        telefono = "F5dON49gKSRLedCuPjuGye"
+        pywhatkit.sendwhatmsg_to_group(telefono, ide + '\n' + '*Boot de Prueba Proveedor:* ' + proveedor, 22, 24, 8, True, 4)
     else:
         print("programa terminado")
-
-
 
 # modify he desired cell
 # sheet["L6"] = "Ejecutado123"
