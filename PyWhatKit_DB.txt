@@ -213,3 +213,93 @@ Time: 23:24
 Group ID: E2YLsn9pOxH52lBJZtPeC9
 Message: 393Boot de Prueba *Proveedor:* zzz
 --------------------
+Date: 12/10/2022
+Time: 23:27
+Group ID: E2YLsn9pOxH52lBJZtPeC9
+Message: 393Boot de Prueba *Proveedor:* zzz
+--------------------
+Date: 12/10/2022
+Time: 23:29
+Group ID: E2YLsn9pOxH52lBJZtPeC9
+Message: 392Boot de Prueba *Proveedor:* FENERIDELFI BELTRAN
+--------------------
+Date: 12/10/2022
+Time: 23:30
+Group ID: E2YLsn9pOxH52lBJZtPeC9
+Message: 393Boot de Prueba *Proveedor:* zzz
+--------------------
+Date: 12/10/2022
+Time: 23:35
+Group ID: E2YLsn9pOxH52lBJZtPeC9
+Message: 392Boot de Prueba *Proveedor:* FENERIDELFI BELTRAN
+--------------------
+Date: 12/10/2022
+Time: 23:36
+Group ID: E2YLsn9pOxH52lBJZtPeC9
+Message: 393Boot de Prueba *Proveedor:* zzz
+--------------------
+Date: 12/10/2022
+Time: 23:39
+Group ID: E2YLsn9pOxH52lBJZtPeC9
+Message: 392Boot de Prueba *Proveedor:* FENERIDELFI BELTRAN
+--------------------
+Date: 12/10/2022
+Time: 23:40
+Group ID: E2YLsn9pOxH52lBJZtPeC9
+Message: 393Boot de Prueba *Proveedor:* zzz
+--------------------
+Date: 13/10/2022
+Time: 0:1
+Group ID: E2YLsn9pOxH52lBJZtPeC9
+Message: *Consecutivo:* 388*Tipo De Servicio:* Recogida/Recolección;*Fecha Del Servicio:* 2022-10-10 00:00:00*Hora Del Servicio:* 10:00:00*Producto:* PITAHAYA*Cantidad Producto:* 20 PLANAS*Cantidad Kg:* 300*Origen:* COORDINAR DENTRO DE CORABASTOS ENTREGA *Destino:* BODEGA HEAVENS FRUITS*Proveedor:* WALTER MARTINEZ*Celular Proveedor:* 3133916841*Conductor:* FREDDY ALFONSOI*Celular Conductor:* 3214883772
+--------------------
+Date: 13/10/2022
+Time: 0:2
+Group ID: E2YLsn9pOxH52lBJZtPeC9
+Message: *Consecutivo:* 389*Tipo De Servicio:* Recogida/Recolección;*Fecha Del Servicio:* 2022-10-10 00:00:00*Hora Del Servicio:* 10:00:00*Producto:* GULUPA*Cantidad Producto:* 36*Cantidad Kg:* 430*Origen:* COORDINAR ADENTRO DE CORABASTOS *Destino:* BODEGA HEAVENS FRUITS*Proveedor:* WALTER MARTINEZ*Celular Proveedor:* 3133916841*Conductor:* FREDY ALFONSO*Celular Conductor:* 3214883772
+--------------------
+Date: 13/10/2022
+Time: 0:3
+Group ID: E2YLsn9pOxH52lBJZtPeC9
+Message: *Consecutivo:* 390*Tipo De Servicio:* Recogida/Recolección;*Fecha Del Servicio:* 2022-10-10 00:00:00*Hora Del Servicio:* 10:00:00*Producto:* GRANADILLA*Cantidad Producto:* 2 CAJAS MANZANERAS*Cantidad Kg:* 24*Origen:* CORABASTOS BODEGA 39 PST 4*Destino:* BODEGA HEVAENS FRUITS*Proveedor:* ALEXANDER BONILLA*Celular Proveedor:* 3104815224*Conductor:* ADELMO*Celular Conductor:* 3204653970
+--------------------
+Date: 13/10/2022
+Time: 0:15
+Group ID: E2YLsn9pOxH52lBJZtPeC9
+Message: *Consecutivo:* 392*Tipo De Servicio:* Recogida/Recolección;*Fecha Del Servicio:* 10-10-2022*Hora Del Servicio:* 22:30:00*Producto:* Tamarillo*Cantidad Producto:* 13*Cantidad Kg:* 250*Origen:* NA*Destino:* BODEGA*Proveedor:* FENERIDELFI BELTRAN*Celular Proveedor:* 3224215482*Conductor:* Yesid*Celular Conductor:* 3102460554
+--------------------
+Date: 13/10/2022
+Time: 0:20
+Group ID: E2YLsn9pOxH52lBJZtPeC9
+Message: *Consecutivo:* 383*Tipo De Servicio:* Recogida/Recolección;*Fecha Del Servicio:* 10-October-2022*Hora Del Servicio:* 11:00:00*Producto:* Maracuyá *Cantidad Producto:* 8*Cantidad Kg:* 110*Origen:* Corabastos *Destino:* Bodega Heavens *Proveedor:* Wilfredo Soler *Celular Proveedor:* 3202790820*Conductor:* Luis*Celular Conductor:* 3014447702
+--------------------
+Date: 13/10/2022
+Time: 0:24
+Group ID: E2YLsn9pOxH52lBJZtPeC9
+Message: *Consecutivo:* 381*Tipo De Servicio:* Recogida/Recolección;*Fecha Del Servicio:* 08-octubre-2022*Hora Del Servicio:* 10:00:00*Producto:* Granadilla *Cantidad Producto:* 30*Cantidad Kg:* 360*Origen:* Bodega Colombian Tropic *Destino:* Bodega Heaven's *Proveedor:* Colombian Tropic *Celular Proveedor:* +57 310 2084415*Conductor:* Na*Celular Conductor:* Na
+--------------------
+Date: 13/10/2022
+Time: 0:37
+Group ID: E2YLsn9pOxH52lBJZtPeC9
+Message: *Consecutivo:* 337*Tipo De Servicio:* Recogida/Recolección;*Fecha Del Servicio:* 28-septiembre-2022*Hora Del Servicio:* coordinar con el conductor antes de las 23:00*Producto:* Feijoa*Cantidad Producto:* 5*Cantidad Kg:* 98*Origen:* Corabastos *Destino:* Bodega Heavens *Proveedor:* Leonardo (Pedro León Jiménez)*Celular Proveedor:* +57 315 8652289*Conductor:* Miller Pedreros *Celular Conductor:* 3232066711
+--------------------
+Date: 13/10/2022
+Time: 0:38
+Group ID: E2YLsn9pOxH52lBJZtPeC9
+Message: *Consecutivo:* 338*Tipo De Servicio:* Recogida/Recolección;*Fecha Del Servicio:* 29-septiembre-2022*Hora Del Servicio:* 7:00 a 9:00*Producto:* Bananito *Cantidad Producto:* 13*Cantidad Kg:* 234*Origen:* Entrada Abastos*Destino:* Bodega Heaven's *Proveedor:* Edith perez *Celular Proveedor:* 3132262454*Conductor:* Carlos*Celular Conductor:* 3234725309
+--------------------
+Date: 13/10/2022
+Time: 0:39
+Group ID: E2YLsn9pOxH52lBJZtPeC9
+Message: *Consecutivo:* 370*Tipo De Servicio:* Recogida/Recolección;*Fecha Del Servicio:* 06-octubre-2022*Hora Del Servicio:* 06:00 POR FAVOR LLAMAR AL CLIENTE CON ANTERIORIDAD A LA HORA ESTABLECIDA*Producto:* GRANADILLA*Cantidad Producto:* 9*Cantidad Kg:* 198*Origen:* VALLADOLID *Destino:* BODEGA HEAVENS*Proveedor:* JORGE ANDRES CUAN *Celular Proveedor:* 3165787853*Conductor:* SERGIO*Celular Conductor:* 3108519719
+--------------------
+Date: 13/10/2022
+Time: 0:40
+Group ID: E2YLsn9pOxH52lBJZtPeC9
+Message: *Consecutivo:* 371*Tipo De Servicio:* Recogida/Recolección;*Fecha Del Servicio:* 06-octubre-2022*Hora Del Servicio:* 06:00:00*Producto:* Bananito*Cantidad Producto:* 6*Cantidad Kg:* 108*Origen:* Abastos*Destino:* Bodega Heaven's *Proveedor:* Edith perez *Celular Proveedor:* 3132262454*Conductor:* Carlos*Celular Conductor:* 3234725309
+--------------------
+Date: 13/10/2022
+Time: 0:41
+Group ID: E2YLsn9pOxH52lBJZtPeC9
+Message: *Consecutivo:* 372*Tipo De Servicio:* Recogida/Recolección;*Fecha Del Servicio:* 06-octubre-2022*Hora Del Servicio:* 02:00:00*Producto:* Tomate Amarillo*Cantidad Producto:* 2*Cantidad Kg:* 25*Origen:* Abastos*Destino:* Bodega Heavens*Proveedor:* Julio Mauricio Castiblanco*Celular Proveedor:* 3214630287*Conductor:* NA*Celular Conductor:* NA
+--------------------

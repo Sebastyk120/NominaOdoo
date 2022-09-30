@@ -1,6 +1,8 @@
 import datetime
 import pywhatkit
 from openpyxl import load_workbook
+import locale
+locale.setlocale(locale.LC_ALL, ("es_ES", "UTF-8"))
 
 # load excel file
 path = ''
@@ -10,8 +12,8 @@ workbook = load_workbook(
 # open workbook
 sheet = workbook.active
 
-rango_condicion = sheet['A1':'AD2500']
-rango_Columna = sheet['AD1':'AD2500']
+rango_condicion = sheet['A1':'AD500']
+rango_Columna = sheet['AD1':'AD500']
 
 contador = -1
 contador2 = 1
@@ -33,11 +35,11 @@ print(sheet["AD2"].value)
 for i in rango_Columna:
     contador += 1
     contador2 += int(1)
-    if i[0].value == None:
+    if i[0].value is None:
         i[0].value = "Enviado"
         ide = str(rango_condicion[contador][0].value)
         tipo_de_servicio = str(rango_condicion[contador][5].value)
-        fecha_servicio = str(rango_condicion[contador][7].value)
+        fecha_servicio = str(datetime.datetime.strftime(rango_condicion[contador][7].value, "%d-%B-%Y"))
         hora_servicio = str(rango_condicion[contador][8].value)
         producto = str(rango_condicion[contador][9].value)
         cantidad_producto = str(rango_condicion[contador][10].value)
@@ -48,25 +50,32 @@ for i in rango_Columna:
         celular_proveedor = str(rango_condicion[contador][15].value)
         conductor = str(rango_condicion[contador][16].value)
         celular_conductor = str(rango_condicion[contador][17].value)
-        telefono = "E2YLsn9pOxH52lBJZtPeC9"
+        grupo_id = "E2YLsn9pOxH52lBJZtPeC9"
         hora = datetime.datetime.now()
         hora_real = datetime.datetime.strftime(hora, '%H')
         hora_real = int(hora_real)
         minutos_real = datetime.datetime.strftime(hora, '%M')
         minutos_real = int(minutos_real)
-        if minutos_real == 60:
+        if minutos_real == 59:
             minutos_real = 1
-        elif minutos_real >= 59:
-            minutos_real = 1 + 1
         else:
             minutos_real = minutos_real + 1
-        pywhatkit.sendwhatmsg_to_group(telefono, ide + '\n' + 'Boot de Prueba *Proveedor:* ' + proveedor, hora_real,
+        pywhatkit.sendwhatmsg_to_group(grupo_id,
+                                       '*Consecutivo:* ' + ide + '\n' + '*Tipo De Servicio:* ' + tipo_de_servicio + '\n' +
+                                       '*Fecha Del Servicio:* ' + fecha_servicio + '\n' + '*Hora Del Servicio:* ' + hora_servicio + '\n' +
+                                       '*Producto:* ' + producto + '\n' + '*Cantidad Producto:* ' + cantidad_producto + '\n' +
+                                       '*Cantidad Kg:* ' + kg + '\n' + '*Origen:* ' + origen + '\n' +
+                                       '*Destino:* ' + destino + '\n' + '*Proveedor:* ' + proveedor + '\n' + '*Celular Proveedor:* ' + celular_proveedor + '\n' +
+                                       '*Conductor:* ' + conductor + '\n' + '*Celular Conductor:* ' + celular_conductor + '\n',
+                                       hora_real,
                                        minutos_real, 8, True, 4)
     else:
-        print("programa terminado")
+        print(' Mensaje enviado')
 
 # modify he desired cell
 # sheet["L6"] = "Ejecutado123"
 
 # save the file
-workbook.save(filename="C:/Users/SebastianM/HEAVEN/HeavensCorp - Documentos/HF Corp/Espacio de Trabajo/Gestion de COMPRAS/Adquisicion de fruta/Erp compras/ProgramacionTransporte.xlsx")
+workbook.save(
+    filename="C:/Users/SebastianM/HEAVEN/HeavensCorp - Documentos/HF Corp/Espacio de Trabajo/Gestion de COMPRAS/Adquisicion de fruta/Erp compras/ProgramacionTransporte.xlsx")
+quit()
