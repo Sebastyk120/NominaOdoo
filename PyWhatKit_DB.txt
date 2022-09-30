@@ -198,3 +198,18 @@ Time: 23:53
 Group ID: E2YLsn9pOxH52lBJZtPeC9
 Message: 392Boot de Prueba *Proveedor:* FENERIDELFI BELTRAN
 --------------------
+Date: 12/10/2022
+Time: 23:20
+Group ID: E2YLsn9pOxH52lBJZtPeC9
+Message: 393Boot de Prueba *Proveedor:* zzz
+--------------------
+Date: 12/10/2022
+Time: 23:21
+Group ID: E2YLsn9pOxH52lBJZtPeC9
+Message: NoneBoot de Prueba *Proveedor:* None
+--------------------
+Date: 12/10/2022
+Time: 23:24
+Group ID: E2YLsn9pOxH52lBJZtPeC9
+Message: 393Boot de Prueba *Proveedor:* zzz
+--------------------
