@@ -100,11 +100,11 @@ def laboradas_azul():
 laboradas_ingreso_descaso = laboradas_azul()
 print(laboradas_ingreso_descaso)
 
-def diurnas_azul():
+"""def diurnas_azul():
     if hora_i_d_d!= "N/A" and hora_s_d_d!= " N/A":
         if d > i:
             if i >= inicio_jornada_diurna_legal and d <= final_jornada_diurna_legal:
                 diurnas = d-i
                 return diurnas
             else:
-                if
+                if"""
