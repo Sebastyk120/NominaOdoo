@@ -13,10 +13,10 @@ workbook = load_workbook(
 sheet = workbook.active
 
 rango_condicion = sheet['A1':'AD500']
+rango_ide = sheet['A1':'A500']
 rango_Columna = sheet['AD1':'AD500']
 
 contador = -1
-contador2 = 1
 ide = "id"
 tipo_de_servicio = "tipo_de_servicio"
 fecha_servicio = "tipo_de_servicio"
@@ -30,13 +30,12 @@ proveedor = "proveedor"
 celular_proveedor = "celular_proveedor"
 conductor = "conductor"
 celular_conductor = "celular_conductor"
+nombre_solicitud = "nombre_solicitud"
 print(sheet["AD2"].value)
 
 for i in rango_Columna:
     contador += 1
-    contador2 += int(1)
-    if i[0].value is None:
-        i[0].value = "Enviado"
+    if i[0].value is None and rango_condicion[contador][0].value is not None:
         ide = str(rango_condicion[contador][0].value)
         tipo_de_servicio = str(rango_condicion[contador][5].value)
         fecha_servicio = str(datetime.datetime.strftime(rango_condicion[contador][7].value, "%d-%B-%Y"))
@@ -50,6 +49,7 @@ for i in rango_Columna:
         celular_proveedor = str(rango_condicion[contador][15].value)
         conductor = str(rango_condicion[contador][16].value)
         celular_conductor = str(rango_condicion[contador][17].value)
+        nombre_solicitud = str(rango_condicion[contador][27].value)
         grupo_id = "E2YLsn9pOxH52lBJZtPeC9"
         hora = datetime.datetime.now()
         hora_real = datetime.datetime.strftime(hora, '%H')
@@ -66,9 +66,10 @@ for i in rango_Columna:
                                        '*Producto:* ' + producto + '\n' + '*Cantidad Producto:* ' + cantidad_producto + '\n' +
                                        '*Cantidad Kg:* ' + kg + '\n' + '*Origen:* ' + origen + '\n' +
                                        '*Destino:* ' + destino + '\n' + '*Proveedor:* ' + proveedor + '\n' + '*Celular Proveedor:* ' + celular_proveedor + '\n' +
-                                       '*Conductor:* ' + conductor + '\n' + '*Celular Conductor:* ' + celular_conductor + '\n',
+                                       '*Conductor:* ' + conductor + '\n' + '*Celular Conductor:* ' + celular_conductor + '\n' + '*Solicitante:* ' + nombre_solicitud,
                                        hora_real,
-                                       minutos_real, 8, True, 4)
+                                       minutos_real, 8, True, 2)
+        i[0].value = "Enviado"
     else:
         print(' Mensaje enviado')
 
