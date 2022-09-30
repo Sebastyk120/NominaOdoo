@@ -5,8 +5,8 @@ import io
 import pandas as pd
 
 #target url taken from sharepoint and credentials
-url = 'https://company.sharepoint.com/Shared%20Documents/Folder%20Number1/Folder%20Number2/Folder3/Folder%20Number4/Target_Excel_File_v4.xlsx?cid=_Random_letters_and_numbers-21dbf74c'
-username = 'Dumby_account@company.com'
+url = 'https://heaven0.sharepoint.com/sites/HeavensCorp/Documentos%20compartidos/HF%20Corp/Espacio%20de%20Trabajo/Gestion%20de%20COMPRAS/Adquisicion%20de%20fruta/Erp%20compras/ProgramacionTransporte.xlsx'
+username = 'sebastian.melo@heavensfruit.com'
 password = 'Password!'
 
 ctx_auth = AuthenticationContext(url)

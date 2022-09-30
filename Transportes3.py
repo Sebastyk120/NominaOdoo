@@ -1,9 +1,11 @@
 from openpyxl import load_workbook
 import pywhatkit
+import datetime
 
 # load excel file
 path = ''
-workbook = load_workbook(filename="ProgramacionTransporte.xlsx")
+workbook = load_workbook(
+    filename="C:/Users/SebastianM/HEAVEN/HeavensCorp - Documentos/HF Corp/Espacio de Trabajo/Gestion de COMPRAS/Adquisicion de fruta/Erp compras/ProgramacionTransporte.xlsx")
 
 # open workbook
 sheet = workbook.active
@@ -29,7 +31,7 @@ celular_conductor = "celular_conductor"
 
 for i in rango_Columna:
     contador += 1
-    contador2 += 1
+    contador2 += int(1)
     if i[0].value == "No Enviado":
         i[0].value = "Enviado"
         ide = str(rango_condicion[contador][0].value)
@@ -45,8 +47,20 @@ for i in rango_Columna:
         celular_proveedor = rango_condicion[contador][15].value
         conductor = rango_condicion[contador][16].value
         celular_conductor = rango_condicion[contador][17].value
-        telefono = "F5dON49gKSRLedCuPjuGye"
-        pywhatkit.sendwhatmsg_to_group(telefono, ide + '\n' + '*Boot de Prueba Proveedor:* ' + proveedor, 22, 24, 8, True, 4)
+        telefono = "E2YLsn9pOxH52lBJZtPeC9"
+        hora = datetime.datetime.now()
+        hora_real = datetime.datetime.strftime(hora, '%H')
+        hora_real = int(hora_real)
+        minutos_real = datetime.datetime.strftime(hora, '%M')
+        minutos_real = int(minutos_real)
+        if minutos_real == 60:
+            minutos_real = 1
+        elif minutos_real >= 59:
+            minutos_real = 1 + 1
+        else:
+            minutos_real = minutos_real + 1
+        pywhatkit.sendwhatmsg_to_group(telefono, ide + '\n' + 'Boot de Prueba *Proveedor:* ' + proveedor, hora_real,
+                                       minutos_real, 8, True, 4)
     else:
         print("programa terminado")
 
@@ -54,4 +68,4 @@ for i in rango_Columna:
 # sheet["L6"] = "Ejecutado123"
 
 # save the file
-workbook.save(filename="ProgramacionTransporte.xlsx")
+workbook.save(filename="C:/Users/SebastianM/HEAVEN/HeavensCorp - Documentos/HF Corp/Espacio de Trabajo/Gestion de COMPRAS/Adquisicion de fruta/Erp compras/ProgramacionTransporte.xlsx")

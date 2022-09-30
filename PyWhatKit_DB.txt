@@ -63,3 +63,138 @@ Time: 22:23
 Group ID: F5dON49gKSRLedCuPjuGye
 Message: 392*Boot de Prueba Proveedor:* FENERIDELFI BELTRAN
 --------------------
+Date: 10/10/2022
+Time: 22:57
+Group ID: F5dON49gKSRLedCuPjuGye
+Message: 384Boot de Prueba *Proveedor:* Pitafcol
+--------------------
+Date: 10/10/2022
+Time: 22:58
+Group ID: F5dON49gKSRLedCuPjuGye
+Message: 385Boot de Prueba *Proveedor:* JUAN PABLO VEGA
+--------------------
+Date: 10/10/2022
+Time: 23:12
+Group ID: F5dON49gKSRLedCuPjuGye
+Message: 384Boot de Prueba *Proveedor:* Pitafcol
+--------------------
+Date: 10/10/2022
+Time: 23:13
+Group ID: F5dON49gKSRLedCuPjuGye
+Message: 385Boot de Prueba *Proveedor:* JUAN PABLO VEGA
+--------------------
+Date: 10/10/2022
+Time: 23:14
+Group ID: F5dON49gKSRLedCuPjuGye
+Message: 386Boot de Prueba *Proveedor:* JORGE HONORIO ALBA
+--------------------
+Date: 10/10/2022
+Time: 23:15
+Group ID: F5dON49gKSRLedCuPjuGye
+Message: 387Boot de Prueba *Proveedor:* JORGE HONORIO ALBA
+--------------------
+Date: 10/10/2022
+Time: 23:16
+Group ID: F5dON49gKSRLedCuPjuGye
+Message: 388Boot de Prueba *Proveedor:* WALTER MARTINEZ
+--------------------
+Date: 10/10/2022
+Time: 23:17
+Group ID: F5dON49gKSRLedCuPjuGye
+Message: 389Boot de Prueba *Proveedor:* WALTER MARTINEZ
+--------------------
+Date: 10/10/2022
+Time: 23:22
+Group ID: E2YLsn9pOxH52lBJZtPeC9
+Message: 384Boot de Prueba *Proveedor:* Pitafcol
+--------------------
+Date: 10/10/2022
+Time: 23:23
+Group ID: E2YLsn9pOxH52lBJZtPeC9
+Message: 385Boot de Prueba *Proveedor:* JUAN PABLO VEGA
+--------------------
+Date: 10/10/2022
+Time: 23:24
+Group ID: E2YLsn9pOxH52lBJZtPeC9
+Message: 386Boot de Prueba *Proveedor:* JORGE HONORIO ALBA
+--------------------
+Date: 10/10/2022
+Time: 23:32
+Group ID: E2YLsn9pOxH52lBJZtPeC9
+Message: 384Boot de Prueba *Proveedor:* Pitafcol
+--------------------
+Date: 10/10/2022
+Time: 23:34
+Group ID: E2YLsn9pOxH52lBJZtPeC9
+Message: 4Boot de Prueba *Proveedor:* COLOMBIA TROPIC
+--------------------
+Date: 10/10/2022
+Time: 23:36
+Group ID: E2YLsn9pOxH52lBJZtPeC9
+Message: 4Boot de Prueba *Proveedor:* COLOMBIA TROPIC
+--------------------
+Date: 10/10/2022
+Time: 23:37
+Group ID: E2YLsn9pOxH52lBJZtPeC9
+Message: 4Boot de Prueba *Proveedor:* COLOMBIA TROPIC
+--------------------
+Date: 10/10/2022
+Time: 23:39
+Group ID: E2YLsn9pOxH52lBJZtPeC9
+Message: 4Boot de Prueba *Proveedor:* COLOMBIA TROPIC
+--------------------
+Date: 10/10/2022
+Time: 23:40
+Group ID: E2YLsn9pOxH52lBJZtPeC9
+Message: 5Boot de Prueba *Proveedor:* INVERSIONES CARMONA
+--------------------
+Date: 10/10/2022
+Time: 23:41
+Group ID: E2YLsn9pOxH52lBJZtPeC9
+Message: 6Boot de Prueba *Proveedor:* DUGLAS LAIN MADRID
+--------------------
+Date: 10/10/2022
+Time: 23:42
+Group ID: E2YLsn9pOxH52lBJZtPeC9
+Message: 7Boot de Prueba *Proveedor:* Dustricarton
+--------------------
+Date: 10/10/2022
+Time: 23:43
+Group ID: E2YLsn9pOxH52lBJZtPeC9
+Message: 8Boot de Prueba *Proveedor:* Juan Pablo Noguera
+--------------------
+Date: 10/10/2022
+Time: 23:44
+Group ID: E2YLsn9pOxH52lBJZtPeC9
+Message: 9Boot de Prueba *Proveedor:* None
+--------------------
+Date: 10/10/2022
+Time: 23:45
+Group ID: E2YLsn9pOxH52lBJZtPeC9
+Message: 10Boot de Prueba *Proveedor:* None
+--------------------
+Date: 10/10/2022
+Time: 23:46
+Group ID: E2YLsn9pOxH52lBJZtPeC9
+Message: 12Boot de Prueba *Proveedor:* None
+--------------------
+Date: 10/10/2022
+Time: 23:47
+Group ID: E2YLsn9pOxH52lBJZtPeC9
+Message: 13Boot de Prueba *Proveedor:* Alexander bonilla
+--------------------
+Date: 10/10/2022
+Time: 23:48
+Group ID: E2YLsn9pOxH52lBJZtPeC9
+Message: 14Boot de Prueba *Proveedor:* Simón valencia
+--------------------
+Date: 10/10/2022
+Time: 23:51
+Group ID: E2YLsn9pOxH52lBJZtPeC9
+Message: 67Boot de Prueba *Proveedor:* Sebastián Linares
+--------------------
+Date: 10/10/2022
+Time: 23:53
+Group ID: E2YLsn9pOxH52lBJZtPeC9
+Message: 392Boot de Prueba *Proveedor:* FENERIDELFI BELTRAN
+--------------------
